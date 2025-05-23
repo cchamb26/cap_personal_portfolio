@@ -30,8 +30,12 @@ header {
   margin-bottom: 2.5rem;
 }
 
-h1, h2 {
+h1 {
   color: var(--text-primary);
+}
+
+h2{
+  text-align: center;
 }
 
 ul {
@@ -76,4 +80,29 @@ footer {
   color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.skill-item span {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.skill-item img {
+  display: block;
 }
